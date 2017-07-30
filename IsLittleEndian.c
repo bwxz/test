@@ -1,4 +1,5 @@
 #include "stdio.h"
+#include "string.h"
 unsigned int is_LitteleEndian()
 {
 	unsigned long datamagic[]={0x11223300};
@@ -15,5 +16,6 @@ unsigned int is_LitteleEndian()
 
 int main()
 {
-	is_LitteleEndian();_
+	is_LitteleEndian();	
+	return 0;
 }
